@@ -14,21 +14,15 @@
         "noLib": false,
         "preserveConstEnums": true,
         "suppressImplicitAnyIndexErrors": true
-    },
-    "exclude": [
+      },
+      "exclude": [
         "node_modules",
         "typings/browser",
         "typings/browser.d.ts"
-    ],
-    "compileOnSave": true,
-    "buildOnSave": false,
-    "files": [
-      "app.js",
-      "app.ts",
-      "controllers.ts",
-      "controllers.js"
-    ],
-    "atom": {
+      ],
+      "compileOnSave": true,
+      "buildOnSave": false,
+      "atom": {
         "rewriteTsconfig": false
-    }
+      }
 }
